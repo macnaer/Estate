@@ -61,7 +61,7 @@
     <h2 class="display-4">We Work For You</h2>
     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
     <hr>
-    <a href="listings.html" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
+    <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
   </section>
 
   <!-- Team -->
@@ -70,7 +70,7 @@
       <h2 class="text-center">Our Team</h2>
       <div class="row text-center">
         <div class="col-md-4">
-          <img src="assets/img/realtors/kyle.jpg" alt="" class="rounded-circle mb-3">
+          <img src="{% static '/img/realtors/kyle.jpg' %}" alt="" class="rounded-circle mb-3">
           <h4>Kyle Brown</h4>
           <p class="text-success">
             <i class="fas fa-award text-success mb-3"></i> Realtor</p>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="col-md-4">
-          <img src="assets/img/realtors/mark.jpg" alt="" class="rounded-circle mb-3">
+          <img src="{% static '/img/realtors/mark.jpg' %}" alt="" class="rounded-circle mb-3">
           <h4>Mark Hudson</h4>
           <p class="text-success">Realtor</p>
           <hr>
@@ -93,7 +93,7 @@
         </div>
 
         <div class="col-md-4">
-          <img src="assets/img/realtors/jenny.jpg" alt="" class="rounded-circle mb-3">
+          <img src="{% static '/img/realtors/jenny.jpg' %}" alt="" class="rounded-circle mb-3">
           <h4>Jenny Johnson</h4>
           <p class="text-success">Realtor</p>
           <hr>
